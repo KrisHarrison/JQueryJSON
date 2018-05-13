@@ -1,0 +1,30 @@
+#busicon,#mapicon,#mapicon2,#homeicon,#homeicon2,#busicon2{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+#mainTitle{
+  text-align:center;
+  vertical-align: middle;
+  font-family:cursive;
+  text-decoration: underline;
+}
+#cmpyTitle,#mapTitle,#mapTitle2,#homeTitle,#homeTitle2,#cmpyTitle2{
+  text-align:center;
+  font-size:17px;
+}
+#vans,#apple,#vice,#vidyard{
+  text-align: center;
+  font-size: 17px;
+  padding-top:15px;
+}
+#btnApple,#btnVans{
+  padding-top:5px;
+}
+#vice{
+  padding-top:20px;
+}
+#displayInfo{
+  text-align: center;
+  padding-top: 20px;
+}

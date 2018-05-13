@@ -1,0 +1,44 @@
+{
+  "company":[
+    {
+      "name":"Vans",
+      "city":"Toronto",
+      "province":"Ontario",
+      "website":"vans.ca",
+      "phone":"(416)-866-2121",
+      "image":"vans.png",
+      "latitude":43.6548783,
+      "longitude":-79.37995560000002
+    },
+    {
+      "name":"Apple",
+      "city":"Toronto",
+      "province":"Ontario",
+      "website":"apple.com/ca/",
+      "phone":"(647)-258-0801",
+      "image":"apple.jpg",
+      "latitude":43.652823,
+      "longitude":-79.38061499999998
+    },
+    {
+      "name":"Vice Media Canada",
+      "city":"Toronto",
+      "province":"Ontario",
+      "website":"vice.com/en_ca",
+      "phone":"(416) 596-6638",
+      "image":"vice.png",
+      "latitude":43.6383602,
+      "longitude":-79.42585869999999
+    },
+    {
+      "name":"Vidyard",
+      "city":"Kitchner-Waterloo",
+      "province":"Ontario",
+      "website":"vidyard.com",
+      "phone":"1 800-530-3878",
+      "image":"vidyard.png",
+      "latitude":43.4503554,
+      "longitude":-80.48889199999996
+    }
+  ]
+}

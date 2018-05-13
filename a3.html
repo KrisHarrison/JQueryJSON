@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="a3.css" />
+    <link rel="stylesheet" href="themes/hakristi.css" />
+    <link rel="stylesheet" href="themes/hakristi.min.css"/>
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      <script src="a3.js"></script>
+  </head>
+  <body>
+
+    <div id="mainPage" data-role="page"><!--Main Page--->
+      <div data-role="header"><!--Header-->
+        <h2>Kristien Harrison</h2>
+        <h2>991152658</h2>
+      </div><!--End of header-->
+      <div data-role="main"><!--Main-->
+        <h2 id="mainTitle">Assignment 3</h2>
+      </div><!--End of Main-->
+      <div data-role="footer" class="ui-grid-a" data-position="fixed"><!--Footer-->
+        <div class="ui-block-a">
+          <h2 id="cmpyTitle">Companies</h2>
+          <a id="busicon" href="http://hakristi.dev.fast.sheridanc.on.ca/A3/a3.html#companyView" data-transition='pop' class='ui-btn ui-shadow'><img src="busicon.png"></img></a>
+        </div>
+        <div class="ui-block-b">
+          <h2 id="mapTitle">Map</h2>
+          <a id="mapicon" href="http://hakristi.dev.fast.sheridanc.on.ca/A3/a3.html#mapView" data-transition='pop' class='ui-btn ui-shadow'><img src="mapicon.png"></img></a>
+        </div>
+      </div><!--End of Footer-->
+    </div><!--End of main page-->
+
+
+    <div id="mapView" data-role="page"><!--Map Page-->
+      <div data-role="header"><!--Header-->
+          <h2>Map</h2>
+        <h2>Kristien Harrison</h2>
+        <h2>991152658</h2>
+      </div><!--End of header-->
+      <div data-role="main" class='ui-grid-a'><!--Main-->
+        <div class='ui-block-a'>
+          <div id="map"></div>
+        </div>
+        <div class='ui-block-b'>
+          <div id="displayInfo"></div>
+        </div>
+      </div><!--End of Main-->
+      <div data-role="footer" class="ui-grid-a" data-position="fixed"><!--Footer-->
+        <div class="ui-block-a">
+          <h2 id="homeTitle2">Home</h2>
+          <a id="homeicon2" href="http://hakristi.dev.fast.sheridanc.on.ca/A3/a3.html" data-transition='pop' class='ui-btn ui-shadow'><img src="home.png"></img></a>
+        </div>
+        <div class="ui-block-b">
+          <h2 id="cmpyTitle2">Business</h2>
+          <a id="busicon2" href="http://hakristi.dev.fast.sheridanc.on.ca/A3/a3.html#companyView" data-transition='pop' class='ui-btn ui-shadow'><img src="busicon.png"></img></a>
+        </div>
+      </div><!--End of Footer-->
+    </div><!--End of Map page-->
+
+
+    <div id="companyView" data-role="page"><!--Map Page-->
+      <div data-role="header"><!--Header-->
+        <h2>Companies</h2>
+        <h2>Kristien Harrison</h2>
+        <h2>991152658</h2>
+      </div><!--End of header-->
+      <div data-role="main" class='ui-grid-a'><!--Main-->
+        <div class='ui-block-a'>
+          <div id="vans"></div>
+          <button id="btnVans">Save</button>
+        </div>
+        <div class='ui-block-b'>
+          <div id="apple"></div>
+          <button id="btnApple">Save</button>
+        </div>
+        <div class='ui-block-a'>
+          <div id="vice"></div>
+          <button id="btnVice">Save</button>
+        </div>
+        <div class='ui-block-b'>
+          <div id="vidyard"></div>
+          <button id="btnVidyard">Save</button>
+        </div>
+      </div><!--End of Main-->
+      <div data-role="footer" class="ui-grid-a" data-position="fixed"><!--Footer-->
+        <div class="ui-block-a">
+          <h2 id="homeTitle">Home</h2>
+          <a id="homeicon" href="http://hakristi.dev.fast.sheridanc.on.ca/A3/a3.html" data-transition='pop' class='ui-btn ui-shadow'><img src="home.png"></img></a>
+        </div>
+        <div class="ui-block-b">
+          <h2 id="mapTitle2">Map</h2>
+          <a id="mapicon2" href="http://hakristi.dev.fast.sheridanc.on.ca/A3/a3.html#mapView" data-transition='pop' class='ui-btn ui-shadow'><img src="mapicon.png"></img></a>
+        </div>
+      </div><!--End of Footer-->
+    </div><!--End of company page-->
+  </body>
+</html>
